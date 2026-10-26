@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ 
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <div class="container">
+      <div class="row">
+         <div class="logo"> <img src="./images/Tech Easy Monogram Logo.png" alt="logo"></div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Blogs</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+<section id="product">
+    <div class="row">
+      <div class="p-img">
+        <div class="main-image">
+        <img id="productImage" src="./images/black.webp" alt="Gaming headset">
+
+        <button class="photo-btn" id="prev" aria-label="Previous photo">
+          &#8249;
+        </button>
+
+        <button class="photo-btn" id="next" aria-label="Next photo">
+          &#8250;
+        </button>
+      </div>
+      <p class="photo-count" id="photoCount">Photo 1 of 4</p>
+      </div>
+      <div class="p-info">
+         <h1>Redmi 17 Pro Max</h1>
+
+      <p>⭐ ⭐ ⭐ ⭐ ⭐ (120 reviews)</p>
+
+      <p class="price">৳ <span id="price">52,000</span></p>
+
+      <p class="description">
+        Display: 6.83" AMOLED, 120Hz, Dolby Vision, HDR10+, 3500 nits
+         Performance: Snapdragon 6 Gen 5 (4nm), Adreno 812, Android 16
+         Camera: Rear 50MP + 8MP Ultrawide, 4K, OIS | Front 32MP, 4K
+        Battery: 10000 mAh, 100W Wired, 27W Reverse
+         Build & Protection: Gorilla Glass Victus 2, Plastic frame/back, IP68/IP69K, Drop Resistant 3m, Stereo Speakers, Dual SIM + eSIM, 229.5 g
+      </p>
+
+      <p class="quantity-title">Quantity</p>
+
+      <div class="quantity-box">
+        <button id="minus">−</button>
+        <input id="quantity" type="number" value="1">
+        <button id="plus">+</button>
+      </div>
+
+      <p class="total">
+        Total: <strong>৳ <span id="total">52,000</span></strong>
+      </p>
+
+      <button class="add-cart" id="addCart">
+        Add to Cart
+      </button>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<img src="./imges/blue.webp" alt="">
+
+<script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Google Sans", sans-serif;
+    background-color:#F4F7F5;}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 71px;
+    height: 62px;
+}
+.menu{
+    padding-top: 14px;
+    width: 70%;
+    text-align: right;
+}
+.menu a{
+    padding-top: 12px;
+    margin: 0 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+}
+#product{
+    height: 500px;
+    border-radius: 12px;
+    margin: 48px 0 ;
+    background-color: white;
+}
+ .p-img {
+    width: 40%;
+    text-align: center;
+   
+}
+
+    .main-image {
+      position: relative;
+    }
+
+    .main-image img {
+      margin-top: 45px;
+      height: 380px;
+      object-fit: cover;
+      border-radius: 12px;
+      background: #e8edf2;
+    }
+
+    .photo-btn {
+      position: absolute;
+      top: 45%;
+      border: none;
+      background: transparent;
+      color: black;
+      font-size: 25px;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    #prev {
+      left: 54px;
+    }
+
+    #next {
+      right: 54px;
+    }
+    .photo-count {
+      text-align: center;
+      margin: 10px;
+      color: #687386;
+    }
+#product .p-info{
+    width: 60%;
+    padding: 8px 0;
+}
+ .p-info h1 {
+      font-size: 29px;
+      margin: 12px 0 12px;
+    }
+
+    .price {
+      color: #098657;
+      font-size: 29px;
+      font-weight: bold;
+      margin: 18px 0;
+    }
+
+    .description {
+      color: #657084;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+
+    .quantity-title {
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .quantity-box {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .quantity-box button {
+      width: 43px;
+      height: 42px;
+      font-size: 22px;
+      background: white;
+      border: 1px solid #d5dce5;
+      cursor: pointer;
+    }
+
+    .quantity-box button:first-child {
+      border-radius: 7px 0 0 7px;
+    }
+
+    .quantity-box button:last-child {
+      border-radius: 0 7px 7px 0;
+    }
+
+    #quantity {
+      width: 55px;
+      height: 42px;
+      border: 1px solid #d5dce5;
+      text-align: center;
+      font-size: 17px;
+    }
+
+    .total {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+
+    .add-cart {
+      width: 90%;
+      padding: 16px;
+      background: #109765;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 17px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .add-cart:hover {
+      background: #087a50;
+    }
